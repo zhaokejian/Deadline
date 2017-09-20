@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Deadline.iml" filepath="$PROJECT_DIR$/Deadline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibBubbleView/LibBubbleView.iml" filepath="$PROJECT_DIR$/LibBubbleView/LibBubbleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibBubbleView/LibBubbleView.iml" filepath="$PROJECT_DIR$/LibBubbleView/LibBubbleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeMenuListViewlibrary/SwipeMenuListViewlibrary.iml" filepath="$PROJECT_DIR$/SwipeMenuListViewlibrary/SwipeMenuListViewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeMenuListViewlibrary/SwipeMenuListViewlibrary.iml" filepath="$PROJECT_DIR$/SwipeMenuListViewlibrary/SwipeMenuListViewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryBubble/libraryBubble.iml" filepath="$PROJECT_DIR$/libraryBubble/libraryBubble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryBubble/libraryBubble.iml" filepath="$PROJECT_DIR$/libraryBubble/libraryBubble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarySwipe/librarySwipe.iml" filepath="$PROJECT_DIR$/librarySwipe/librarySwipe.iml" />
+    </modules>
+  </component>
+</project>

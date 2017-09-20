@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:id="@+id/addDDLlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <com.getbase.floatingactionbutton.AddFloatingActionButton
+        android:id="@+id/addDDLDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addDDL"
+        fab:fab_plusIconColor="@color/half_black"
+        fab:fab_colorNormal="@color/white"
+        fab:fab_colorPressed="@color/white_pressed"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_above="@+id/addDDLDone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="false">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/addDDLtext"
+            android:drawableLeft="@drawable/flag"
+            android:hint="你要做什么"
+            android:linksClickable="false"
+            android:textColorHint="#aeaaaa" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/DDLdatetext"
+            android:focusable="false"
+            android:drawableLeft="@drawable/calendar"
+            android:hint="到期日"
+            android:linksClickable="false"
+            android:textColorHint="#aeaaaa" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/alarmdatetext"
+            android:focusable="false"
+            android:drawableLeft="@drawable/alarm"
+            android:hint="提醒日期"
+            android:linksClickable="false"
+            android:textColorHint="#aeaaaa" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/blank"
+            android:layout_height="80dp"
+            android:id="@+id/alarmtimetext"
+            android:focusable="false"
+            android:hint="提醒时间"
+            android:linksClickable="false"
+            android:textColorHint="#aeaaaa" />
+
+
+        <!--<DatePicker-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="115dp"-->
+        <!--android:id="@+id/datePicker"-->
+        <!--android:layout_below="@+id/addDDLtext"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="false" />-->
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

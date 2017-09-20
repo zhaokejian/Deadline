@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cardtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/flag"
+            android:paddingBottom="5px"
+            android:paddingRight="0px"
+            android:paddingTop="5px" />
+
+        <TextView
+            android:id="@+id/texttitle"
+            android:textColor="@color/black_semi_transparent"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/carddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/cardtitle"
+        android:layout_alignParentLeft="true">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/calendar"
+            android:adjustViewBounds="true"
+            android:paddingBottom="5px"
+            android:paddingRight="0px"
+            android:paddingTop="5px" />
+
+        <TextView
+            android:id="@+id/textddl"
+            android:textColor="@color/black_semi_transparent"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/carddonedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/cardtitle"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="true">
+
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/calendar"
+            android:adjustViewBounds="true"
+            android:layout_gravity="bottom"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"/>
+
+        <TextView
+            android:id="@+id/textdone"
+            android:textColor="@color/black_semi_transparent"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
